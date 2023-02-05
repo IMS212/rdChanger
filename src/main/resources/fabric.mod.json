@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "renderdistancechanger",
+  "version": "${version}",
+  "name": "Renderdistancechanger",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/renderdistancechanger/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.ims.renderdistancechanger.RenderDistanceChanger"
+    ]
+  },
+  "mixins": [
+    "renderdistancechanger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "minecraft": "1.18.2"
+  }
+}
