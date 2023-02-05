@@ -80,7 +80,7 @@ public class Config {
 		properties.setProperty("daytimeSwitch", String.valueOf(daytimeSwitch));
 		properties.setProperty("nighttimeSwitch", String.valueOf(nighttimeSwitch));
 		properties.setProperty("daytimeRd", String.valueOf(daytimeRd));
-		properties.setProperty("nighttimeRd", String.valueOf(nighttimeSwitch));
+		properties.setProperty("nighttimeRd", String.valueOf(nighttimeRd));
 		properties.setProperty("tellWhenChanged", String.valueOf(tellWhenChanged));
 		// NB: This uses ISO-8859-1 with unicode escapes as the encoding
 		try (OutputStream os = Files.newOutputStream(propertiesPath)) {
